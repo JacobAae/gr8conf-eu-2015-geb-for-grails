@@ -1,0 +1,34 @@
+= Geb for testing your Grails Application
+Jacob Aae Mikkelsen
+
+== Agenda
+
+* What is Geb
+*
+
+=== Jacob Aae Mikkelsen
+
+* Senior Engineer at Lego
+** CIT MA BIS
+** Microservice based architechture
+* Previously 4 years at Gennemtænkt IT
+** Consultant on Groovy and Grails
+* image:twitter.png[Twitter, 40,40 ,role="inline-image"] @JacobAae
+* Blogs http://grydeske.net/news[The Grails Diary]
+
+
+== Geb
+
+include::_geb.adoc[]
+
+[NOTE.speaker]
+Not only Browser based
+
+
+== Resources
+
+* http://gebisg.org[]
+
+
+== Questions?
+

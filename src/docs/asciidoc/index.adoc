@@ -1,21 +1,36 @@
 = Geb for testing your Grails Application
 Jacob Aae Mikkelsen
 
+
 == Agenda
 
-* What is Geb
-*
+* Functional testing
+* Geb - cudos and history
+* How Geb works
+* Geb and Grails 2 and 3
+* Browser support
+* Javascript
 
 === Jacob Aae Mikkelsen
 
 * Senior Engineer at Lego
-** CIT MA BIS
-** Microservice based architechture
+** Microservice based architechture on JVM
 * Previously 4 years at Gennemtænkt IT
 ** Consultant on Groovy and Grails
+* External Associate Professor - University of Southern Denmark
 * image:twitter.png[Twitter, 40,40 ,role="inline-image"] @JacobAae
 * Blogs http://grydeske.net/news[The Grails Diary]
 
+
+=== Functional testing
+
+* Ignores the specifics of the underlying software component under test.
+* Merely asserts that providing certain input results in certain output.
+* *Web-application:* Programmatically controlling a web browser to simulate the actions of a user on a web page.
+
+WARNING: Traditionally been tedious, cumbersome and brittle to do
+
+TIP: Geb helps ease the pain
 
 == Geb
 
@@ -25,9 +40,63 @@ include::_geb.adoc[]
 Not only Browser based
 
 
+== Using Geb
+
+////
+How Geb works
+////
+
+include::_using-geb.adoc[]
+
+== Structuring Geb Tests
+
+include::_structuring-geb.adoc[]
+
+
+== Geb with Grails
+
+
+include::_interaction-with-application.adoc[]
+
+
+
+== Configuration and Browser support
+
+include::_configuration.adoc[]
+
+
+
+
+
+== Reporting
+
+include::_reporting.adoc[]
+
+
+
+== Javascript
+
+include::_javascript.adoc[]
+
+
+== Other usages
+
+* Screenscraping of a site
+* Solving complex problems like 2048
+
+
+[NOTE.speaker]
+DEMO-TID
+
+
 == Resources
 
-* http://gebisg.org[]
+* http://gebish.org[]
+* https://github.com/geb[]
+* https://gist.github.com/melix/9619800
+* https://fbflex.wordpress.com/2010/08/25/geb-and-grails-tips-tricks-and-gotchas/
+* https://github.com/JacobAae/eu-gr8conf-grailsdemo
+
 
 
 == Questions?
